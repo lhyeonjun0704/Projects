@@ -2,13 +2,13 @@ import os
 import sys
 import requests
 
-client_id = "YOUR_CLIENT_ID"
-client_secret = "YOUR_CLIENT_SECRET"
+client_id = "hjpUcrC21mwYUSLAsAVb"
+client_secret = "3yxRtOWz32"
 
-# url = "https://openapi.naver.com/v1/vision/face" # 얼굴감지
-url = "https://openapi.naver.com/v1/vision/celebrity" # 유명인 얼굴인식
+url = "https://openapi.naver.com/v1/vision/face" # 얼굴감지
+#url = "https://openapi.naver.com/v1/vision/celebrity" # 유명인 얼굴인식
 
-#file_name = 'ex_01.jpg' #
+#file_name = 'ex_01.jpg'
 file_name = 'ex_02.jpg'
 
 files = {'image': open(file_name, 'rb')}
